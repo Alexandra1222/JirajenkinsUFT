@@ -1,0 +1,16 @@
+pipeline {
+     agent any{ 
+        stage('Build') {
+             when {
+                 branch 'master'
+             }
+             steps {
+                 echo 'Desplegando a  Staging desde master...'
+             }
+             
+         }
+     }
+         
+         
+     
+}

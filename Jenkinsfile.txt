@@ -6,8 +6,8 @@ pipeline {
             steps {
                 script {
                     // Credenciales de Jira
-                    def jiraUsername = 'Claudia Salgán'
-                    def jiraPassword = 'p3c&U9pLdL9M'
+                    def jiraUsername = 'Natalia Antich'
+                    def jiraPassword = 'Tsoft2022'
                     def jiraUrl = 'https://bcba-testing-factory.atlassian.net'
 
                     // ID del proyecto y la tarjeta en Jira
